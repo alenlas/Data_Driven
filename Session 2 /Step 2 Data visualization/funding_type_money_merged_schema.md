@@ -1,0 +1,55 @@
+| Column Name | Description | Data Type / Domain | Relationships |
+|---|---|---|---|
+| Unnamed: 0 | Calendar year of observations. | integer (YYYY)<br>2012–2025 | Primary key for each row (Year).<br>All other columns vary by Year. |
+| Seed Money Raised (in USD) | USD raised via Seed (all firms). | float (USD), nullable<br>≥0 | Paired with `Seed WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Pre-Seed Money Raised (in USD) | USD raised via Pre-Seed (all firms). | float (USD), nullable<br>≥0 | Paired with `Pre-Seed WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Grant Money Raised (in USD) | USD raised via Grant (all firms). | float (USD), nullable<br>≥0 | Paired with `Grant WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Venture - Series Unknown Money Raised (in USD) | USD raised via Venture - Series Unknown (all firms). | float (USD), nullable<br>≥0 | Paired with `Venture - Series Unknown WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series A Money Raised (in USD) | USD raised via Series A (all firms). | float (USD), nullable<br>≥0 | Paired with `Series A WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Funding Round Money Raised (in USD) | USD raised via Funding Round (all firms). | float (USD), nullable<br>≥0 | Paired with `Funding Round WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Post-IPO Equity Money Raised (in USD) | USD raised via Post-IPO Equity (all firms). | float (USD), nullable<br>≥0 | Paired with `Post-IPO Equity WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Post-IPO Debt Money Raised (in USD) | USD raised via Post-IPO Debt (all firms). | float (USD), nullable<br>≥0 | Paired with `Post-IPO Debt WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Convertible Note Money Raised (in USD) | USD raised via Convertible Note (all firms). | float (USD), nullable<br>≥0 | Paired with `Convertible Note WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Private Equity Money Raised (in USD) | USD raised via Private Equity (all firms). | float (USD), nullable<br>≥0 | Paired with `Private Equity WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Corporate Round Money Raised (in USD) | USD raised via Corporate Round (all firms). | float (USD), nullable<br>≥0 | Paired with `Corporate Round WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Angel Money Raised (in USD) | USD raised via Angel (all firms). | float (USD), nullable<br>≥0 | Paired with `Angel WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series C Money Raised (in USD) | USD raised via Series C (all firms). | float (USD), nullable<br>≥0 | Paired with `Series C WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Debt Financing Money Raised (in USD) | USD raised via Debt Financing (all firms). | float (USD), nullable<br>≥0 | Paired with `Debt Financing WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Equity Crowdfunding Money Raised (in USD) | USD raised via Equity Crowdfunding (all firms). | float (USD), nullable<br>≥0 | Paired with `Equity Crowdfunding WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series B Money Raised (in USD) | USD raised via Series B (all firms). | float (USD), nullable<br>≥0 | Paired with `Series B WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series D Money Raised (in USD) | USD raised via Series D (all firms). | float (USD), nullable<br>≥0 | Paired with `Series D WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Non-equity Assistance Money Raised (in USD) | USD raised via Non-equity Assistance (all firms). | float (USD), nullable<br>≥0 | Paired with `Non-equity Assistance WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Secondary Market Money Raised (in USD) | USD raised via Secondary Market (all firms). | float (USD), nullable<br>≥0 | Paired with `Secondary Market WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series G Money Raised (in USD) | USD raised via Series G (all firms). | float (USD), nullable<br>≥0 | Paired with `Series G WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Post-IPO Secondary Money Raised (in USD) | USD raised via Post-IPO Secondary (all firms). | float (USD), nullable<br>≥0 | Paired with `Post-IPO Secondary WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series E Money Raised (in USD) | USD raised via Series E (all firms). | float (USD), nullable<br>≥0 | Paired with `Series E WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Initial Coin Offering Money Raised (in USD) | USD raised via Initial Coin Offering (all firms). | float (USD), nullable<br>≥0 | Paired with `Initial Coin Offering WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series F Money Raised (in USD) | USD raised via Series F (all firms). | float (USD), nullable<br>≥0 | Paired with `Series F WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Product Crowdfunding Money Raised (in USD) | USD raised via Product Crowdfunding (all firms). | float (USD), nullable<br>≥0 | Paired with `Product Crowdfunding WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Series H Money Raised (in USD) | USD raised via Series H (all firms). | float (USD), nullable<br>≥0 | Paired with `Series H WHU Money Raised (in USD)` (subset).<br>Aligned by `Unnamed: 0` (Year). |
+| Seed WHU Money Raised (in USD) | USD raised via Seed (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Seed Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Pre-Seed WHU Money Raised (in USD) | USD raised via Pre-Seed (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Pre-Seed Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Grant WHU Money Raised (in USD) | USD raised via Grant (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Grant Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Venture - Series Unknown WHU Money Raised (in USD) | USD raised via Venture - Series Unknown (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Venture - Series Unknown Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series A WHU Money Raised (in USD) | USD raised via Series A (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series A Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Funding Round WHU Money Raised (in USD) | USD raised via Funding Round (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Funding Round Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Post-IPO Equity WHU Money Raised (in USD) | USD raised via Post-IPO Equity (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Post-IPO Equity Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Post-IPO Debt WHU Money Raised (in USD) | USD raised via Post-IPO Debt (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Post-IPO Debt Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Convertible Note WHU Money Raised (in USD) | USD raised via Convertible Note (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Convertible Note Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Private Equity WHU Money Raised (in USD) | USD raised via Private Equity (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Private Equity Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Corporate Round WHU Money Raised (in USD) | USD raised via Corporate Round (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Corporate Round Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Angel WHU Money Raised (in USD) | USD raised via Angel (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Angel Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series C WHU Money Raised (in USD) | USD raised via Series C (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series C Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Debt Financing WHU Money Raised (in USD) | USD raised via Debt Financing (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Debt Financing Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Equity Crowdfunding WHU Money Raised (in USD) | USD raised via Equity Crowdfunding (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Equity Crowdfunding Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series B WHU Money Raised (in USD) | USD raised via Series B (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series B Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series D WHU Money Raised (in USD) | USD raised via Series D (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series D Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Non-equity Assistance WHU Money Raised (in USD) | USD raised via Non-equity Assistance (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Non-equity Assistance Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Secondary Market WHU Money Raised (in USD) | USD raised via Secondary Market (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Secondary Market Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series G WHU Money Raised (in USD) | USD raised via Series G (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series G Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Post-IPO Secondary WHU Money Raised (in USD) | USD raised via Post-IPO Secondary (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Post-IPO Secondary Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series E WHU Money Raised (in USD) | USD raised via Series E (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series E Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Initial Coin Offering WHU Money Raised (in USD) | USD raised via Initial Coin Offering (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Initial Coin Offering Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series F WHU Money Raised (in USD) | USD raised via Series F (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series F Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Product Crowdfunding WHU Money Raised (in USD) | USD raised via Product Crowdfunding (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Product Crowdfunding Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |
+| Series H WHU Money Raised (in USD) | USD raised via Series H (WHU subset). | float (USD), nullable<br>≥0 | Subset of `Series H Money Raised (in USD)`.<br>Aligned by `Unnamed: 0` (Year). |

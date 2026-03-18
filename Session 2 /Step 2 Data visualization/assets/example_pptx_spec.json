@@ -1,0 +1,24 @@
+{
+  "type": "pptx",
+  "title": "Example deck",
+  "author_line": "Author | Department",
+  "slides": [
+    {
+      "layout": "WHU_4-Part-Headline + Image",
+      "cover_part1": "First part of a four-line headline",
+      "cover_part2": "Second part of a four-line headline",
+      "author_line": "Author | Department"
+    },
+    {
+      "layout": "WHU_Slide_White_Textmaster",
+      "topic": "Topic",
+      "headline": "Here is a two-line headline\nwritten in 40pt font size.",
+      "subheadline": "Headline",
+      "bullets": [
+        "Point 1",
+        "Point 2",
+        "Point 3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "xlsx",
+  "title": "Example WHU dashboard",
+  "kpis": [
+    {
+      "label": "Applicants",
+      "value": 1234
+    },
+    {
+      "label": "Conversion",
+      "value": "12%"
+    },
+    {
+      "label": "NPS",
+      "value": 54
+    }
+  ],
+  "data": {
+    "columns": [
+      "Month",
+      "Leads",
+      "Applicants"
+    ],
+    "rows": [
+      [
+        "2026-01",
+        120,
+        45
+      ],
+      [
+        "2026-02",
+        150,
+        60
+      ],
+      [
+        "2026-03",
+        180,
+        72
+      ]
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "docx",
+  "title": "Example WHU report",
+  "subtitle": "Subtitle in light blue",
+  "author_line": "Author | Department",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "Short intro paragraph in Arial."
+      ],
+      "bullets": [
+        "Key point A",
+        "Key point B"
+      ]
+    },
+    {
+      "heading": "Findings",
+      "paragraphs": [
+        "A concise findings paragraph."
+      ]
+    }
+  ]
+}
